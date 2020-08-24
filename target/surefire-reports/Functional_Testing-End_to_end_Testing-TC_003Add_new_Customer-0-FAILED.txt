@@ -1,0 +1,47 @@
+Status: FAILED
+Time Taken: 551
+Size: 82
+Timestamp: Mon Aug 24 17:09:03 IST 2020
+TestStep: TC_003-Add new Customer
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:400 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://rest-api.upskills.in
+Method: POST
+StatusCode: 400
+URL: http://rest-api.upskills.in/api/rest_admin/customers
+
+---------------- Request ---------------------------
+Authorization: [Bearer 54f19a34c76153cc547e39f1854e0f69d4ef3a67]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [rest-api.upskills.in]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [164]
+Content-Type: [application/json]
+
+POST http://rest-api.upskills.in/api/rest_admin/customers HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Authorization: Bearer 54f19a34c76153cc547e39f1854e0f69d4ef3a67
+Content-Length: 164
+Host: rest-api.upskills.in
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+
+---------------- Response --------------------------
+Server: [LiteSpeed]
+Connection: [Keep-Alive]
+Set-Cookie: [OCSESSID=9f9751021b31f8e1f7cd141d74; path=/, language=en-gb; expires=Wed, 23-Sep-2020 11:39:03 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in, currency=INR; expires=Wed, 23-Sep-2020 11:39:03 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in]
+#status#: [HTTP/1.1 400 Bad Request]
+Content-Length: [82]
+Date: [Mon, 24 Aug 2020 11:39:03 GMT]
+X-Powered-By: [PHP/5.6.40]
+Content-Type: [application/json; charset=utf-8]
+
+{"success":0,"error":["Warning: E-Mail Address is already registered!"],"data":[]}
